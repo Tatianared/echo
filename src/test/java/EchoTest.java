@@ -9,7 +9,7 @@ public class EchoTest {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(420)
+                .statusCode(200)
                 .body("data", equalTo("{name: \"type\": \"string\""));
 
 
